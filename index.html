@@ -21,9 +21,9 @@
   <body>
     <div class="p-5 bg-primary text-white text-center">
       <div class="logo">
-        <img src="ccs.jpg" class="float-start" width="100" height="100" />
+        <img src="ccs.jpg" class="float-start" width="100" height="100"/>
       </div>
-      <h1>Raymond</h1>
+      <p class="h1">Raymond</p>
     </div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid">
@@ -72,8 +72,31 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-sm-4">
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="raymond.jpg" alt="Raymond" class="d-block" style="width:304%">
+              </div>
+              <div class="carousel-item">
+                <img src="raymond2.jpg" alt="Chicago" class="d-block" style="width:100%">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
           <img src="raymond.jpg" class="rounded" alt="Raymond" width="304" />
-          <p>I'm Raymond currently pursuing the degree of I.T.</p>
+          </div>
           <h3 class="mt-4">Other links</h3>
           <p>Navigate down to access everything</p>
 
@@ -93,14 +116,16 @@
         </div>
         <div class="col-sm-8">
           <h2>Welcome to my portfolio!</h2>
-          <h5>Monday, October 14, 2024</h5>
-          <p>This is my first time making website with Bootstrap 5</p>
+          <Br>
+          <Br>
+          <h3>I'm currently pursuing the degree of IT and
+              I'm here to assist your<h3>
         </div>
       </div>
     </div>
 
     <footer class="mt-5 p-4 bg-dark text-white text-center">
-      <p>Copyright 2024</p>
+      <p>&copy 2024 </p>
     </footer>
   </body>
 </html>
